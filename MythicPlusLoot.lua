@@ -141,17 +141,19 @@ hooksecurefunc("ChatFrame_OnHyperlinkShow",SetHyperlink_Hook)
 
 function MythicLootItemLevel(mlvl)
  if (mlvl == "2") then
-  return "890"
- elseif (mlvl == "3" or mlvl == "4") then
-  return "895"
+  return "840"
+ elseif (mlvl == "3") then
+  return "845"
+ elseif (mlvl == "4") then
+  return "850"
  elseif (mlvl == "5") then
-  return "900"
+  return "850"
  elseif (mlvl == "6" or mlvl == "7") then
-  return "905"
+  return "855"
  elseif (mlvl == "8" or mlvl == "9") then
-  return "910"
+  return "860"
  elseif (mlvl >= "10") then
-  return "915"
+  return "865"
  else
   return ""
  end
@@ -161,19 +163,19 @@ end
 
 function MythicWeeklyLootItemLevel(mlvl)
  if (mlvl == "2") then
-  return "900"
+  return "860"
  elseif (mlvl == "3") then
-  return "905"
+  return "865"
  elseif (mlvl == "4") then
-  return "910"
- elseif (mlvl == "5" or mlvl == "6") then
-  return "915"
- elseif (mlvl == "7" or mlvl == "8") then
-  return "920"
- elseif (mlvl == "9") then
-  return "925"
+  return "865"
+ elseif (mlvl == "5") then
+  return "865"
+ elseif (mlvl == "6" or mlvl == "7") then
+  return "870"
+ elseif (mlvl == "8" or mlvl == "9") then
+  return "875"
  elseif (mlvl >= "10") then
-  return "930"
+  return "880"
  else
   return ""
  end
