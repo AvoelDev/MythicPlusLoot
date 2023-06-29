@@ -1,0 +1,20 @@
+## Interface: 70300
+## Title: MythicPlusLoot
+## Version: 2.1
+## Notes: |cff00ff00Mythic Plus Loot item level for Keystone and Weekly Chest.
+## Notes-itIT: |cff00ff00Mostra l'item level per le Mythic Plus Loot nel tooltip delle Keystone e della Weekly Chest.
+## Author: Artanis
+
+embeds.xml
+
+enUS.lua
+
+itIT.lua
+
+zhCN.lua
+
+koKR.lua
+
+zhTW.lua
+
+MythicPlusLoot.lua
